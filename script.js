@@ -91,13 +91,13 @@ var upperCasedCharacters = [
 // Function to prompt user for password options
 function getPasswordOptions() {
   var passwordLength = parseInt(prompt("Please enter how many characters you want in your password (between 8 - 128 characters."));
-  
+// if incorrect number added then it will ask again.
   while (passwordLength < 8 || passwordLength > 128 ) {
     alert ("Please choose between 8 - 128 characters. ");
     passwordLength = parseInt(prompt("Please enter how many characters you want in your password (between 8 - 128 characters."));
    };
  
-
+// This makes it so user has to enter either of the options. 
   do { 
     var hasCapitalsChar = prompt ("Do you want Capitals in your password ? If yes, type 'yes' and if no type 'no'. ");
    } while (hasCapitalsChar !== "yes" && hasCapitalsChar !== "no" );
