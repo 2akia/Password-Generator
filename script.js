@@ -97,13 +97,25 @@ function getPasswordOptions() {
    return;
   };
 
-  var hasCapitalsChar = prompt ("Do you want Capitals in your password ? If yes, type 'yes' and if no type 'no'. ");
+  do { 
+    var hasCapitalsChar = prompt ("Do you want Capitals in your password ? If yes, type 'yes' and if no type 'no'. ");
+   } while (hasCapitalsChar !== "yes" && hasCapitalsChar !== "no" );
 
-  var hasSpecialChar = prompt ("Do you want speacial charaters in your password ? If yes, type ' yes ' and if no type 'no'.");
+   do {
+    var hasSpecialChar = prompt ("Do you want speacial charaters in your password ? If yes, type ' yes ' and if no type 'no'.");
+  
+   } while (hasSpecialChar !== "yes" && hasSpecialChar !== "no" );
 
-  var hasNumericChar = prompt ("Do you want Numbers in your password ?  If yes, type 'yes' and if no type 'no'.");
+   do {
+    var hasNumericChar = prompt ("Do you want Numbers in your password ?  If yes, type 'yes' and if no type 'no'.");
+  
+   } while (hasNumericChar !== "yes" && hasNumericChar !== "no" );
 
-  var hasLowerCaseChar = prompt ("Do you want Lower Case in your password ?  If yes, type 'yes' and if no type 'no'.");
+   do {
+    var hasLowerCaseChar = prompt ("Do you want Lower Case in your password ?  If yes, type 'yes' and if no type 'no'.");
+  
+   } while (hasLowerCaseChar !== "yes" && hasLowerCaseChar !== "no" );
+   
   
   if (hasCapitalsChar === "no" && hasSpecialChar === "no" && hasNumericChar === "no" && hasLowerCaseChar === "no" ) {
    alert ("Please select at least one character");
