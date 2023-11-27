@@ -99,21 +99,21 @@ function getPasswordOptions() {
  
 // This makes it so user has to enter either of the options. 
   do { 
-    var hasCapitalsChar = prompt ("Do you want Capitals in your password ? If yes, type 'yes' and if no type 'no'. ");
+    var hasCapitalsChar = prompt ("Do you want Capitals in your password ? If yes, type 'yes' and if no, type 'no'. ");
    } while (hasCapitalsChar !== "yes" && hasCapitalsChar !== "no" );
 
    do {
-    var hasSpecialChar = prompt ("Do you want speacial charaters in your password ? If yes, type ' yes ' and if no type 'no'.");
+    var hasSpecialChar = prompt ("Do you want speacial charaters in your password ? If yes, type ' yes ' and if no, type 'no'.");
   
    } while (hasSpecialChar !== "yes" && hasSpecialChar !== "no" );
 
    do {
-    var hasNumericChar = prompt ("Do you want Numbers in your password ?  If yes, type 'yes' and if no type 'no'.");
+    var hasNumericChar = prompt ("Do you want Numbers in your password ?  If yes, type 'yes' and if no, type 'no'.");
   
    } while (hasNumericChar !== "yes" && hasNumericChar !== "no" );
 
    do {
-    var hasLowerCaseChar = prompt ("Do you want Lower Case in your password ?  If yes, type 'yes' and if no type 'no'.");
+    var hasLowerCaseChar = prompt ("Do you want Lower Case in your password ?  If yes, type 'yes' and if no, type 'no'.");
   
    } while (hasLowerCaseChar !== "yes" && hasLowerCaseChar !== "no" );
    
