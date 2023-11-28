@@ -12,9 +12,7 @@ Hello!! Welcome ...
 
 ## Introduction
 
-
-
-
+This challenge required us to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code.
 
 
 # Installation
@@ -36,7 +34,7 @@ Hello!! Welcome ...
 
 Here are some useful resources related to this project:
 
-- [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+- [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript): The official Mdn docs website.
 
 - [W3C HTML Specification](https://www.w3.org/TR/html52/): The official HTML specification by the World Wide Web      Consortium.
 - [Stack Overflow](https://stackoverflow.com): Get answers to common questions and issues related to this project.
