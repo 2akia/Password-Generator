@@ -1,13 +1,13 @@
 # Password-Generator
 
-Hello!! Welcome to my Bootstrap Portfolio.
+Hello!! Welcome ...
 
 ## Table of Contents:
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Resources](#resources)
 * [License](#license)
-* [Copyright](#copyright)
+
 
 
 ## Introduction
@@ -25,10 +25,10 @@ Hello!! Welcome to my Bootstrap Portfolio.
 4. Start the application.
 
 
-![Example Screenshot 1]()
-![Example Screenshot 1]()
-![Example Screenshot 1]()
-![Example Screenshot 1]()
+![Example Screenshot 1](/Screenshots/Repo%20screenshot.png).
+![Example Screenshot 2](/Screenshots/screenshot%202.png).
+![Example Screenshot 3](/Screenshots/Screenshot%203.png).
+![Example Screenshot 4](/Screenshots/screenshot%204.png).
 
 
 
